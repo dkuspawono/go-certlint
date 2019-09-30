@@ -87,4 +87,6 @@ func Certlint(cert_der []byte) string {
 
 func Finish() {
 	C.ruby_cleanup(0)
+
 }
+go cert-lint.go
